@@ -80,6 +80,7 @@ public class KalkylatorMain {
 				System.out.print("Talet blir " + c);
 			}
 		}
+		scan.close();
 	}
 
 }
