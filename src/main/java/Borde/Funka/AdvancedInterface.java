@@ -7,9 +7,7 @@ public interface AdvancedInterface{
 	 */
 	
 	double PI(double z);
-	
-	double Random(double z);
-	
+		
 	double Cos(double z);
 	
 	double Tan(double z);
@@ -18,5 +16,6 @@ public interface AdvancedInterface{
 	
 	double Sqrt(double z);
 	
+	double Cbrt(double z);
 
 }

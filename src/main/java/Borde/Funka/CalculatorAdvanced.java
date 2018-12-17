@@ -6,9 +6,6 @@ public class CalculatorAdvanced implements AdvancedInterface {
 		return Math.PI * x;
 	}
 
-	public double Random(double x) {
-		return x / (Math.random()*20);
-	}
 
 	public double Cos(double x ) {
 		return Math.cos(Math.toRadians(x));
@@ -29,5 +26,11 @@ public class CalculatorAdvanced implements AdvancedInterface {
 		return Math.sqrt(x);
 
 	}
+	/**
+	 * Bytte ut random eftersom det blev error med Random
+	 */
 
+	public double Cbrt(double x) {
+		return Math.cbrt(x);
+	}
 }

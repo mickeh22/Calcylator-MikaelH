@@ -1,68 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="14" passed="14">
+<testng-results skipped="0" failed="0" total="31" passed="31">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="386" started-at="2018-12-14T19:38:13Z" finished-at="2018-12-14T19:38:13Z">
+  <suite name="Surefire suite" duration-ms="593" started-at="2018-12-17T11:58:52Z" finished-at="2018-12-17T11:58:52Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="386" started-at="2018-12-14T19:38:13Z" finished-at="2018-12-14T19:38:13Z">
+    <test name="Surefire test" duration-ms="593" started-at="2018-12-17T11:58:52Z" finished-at="2018-12-17T11:58:52Z">
       <class name="Borde.Funka.TestCase">
-        <test-method status="PASS" signature="sub50_zero()[pri:0, instance:sub50_zero(Borde.Funka.TestCase)]" name="sub50_zero" duration-ms="80" started-at="2018-12-14T20:38:13Z" finished-at="2018-12-14T20:38:13Z">
+        <test-method status="PASS" signature="Cbrt_50()[pri:0, instance:Cbrt_50(Borde.Funka.TestCase)]" name="Cbrt_50" duration-ms="47" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cbrt_50 -->
+        <test-method status="PASS" signature="sqrt_50()[pri:0, instance:sqrt_50(Borde.Funka.TestCase)]" name="sqrt_50" duration-ms="36" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sqrt_50 -->
+        <test-method status="PASS" signature="sub50_zero()[pri:0, instance:sub50_zero(Borde.Funka.TestCase)]" name="sub50_zero" duration-ms="22" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sub50_zero -->
-        <test-method status="PASS" signature="addi50_zero()[pri:0, instance:addi50_zero(Borde.Funka.TestCase)]" name="addi50_zero" duration-ms="16" started-at="2018-12-14T20:38:13Z" finished-at="2018-12-14T20:38:13Z">
+        <test-method status="PASS" signature="addi50_zero()[pri:0, instance:addi50_zero(Borde.Funka.TestCase)]" name="addi50_zero" duration-ms="38" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addi50_zero -->
-        <test-method status="PASS" signature="addi50()[pri:0, instance:addi50(Borde.Funka.TestCase)]" name="addi50" duration-ms="30" started-at="2018-12-14T20:38:13Z" finished-at="2018-12-14T20:38:13Z">
+        <test-method status="PASS" signature="addi50()[pri:0, instance:addi50(Borde.Funka.TestCase)]" name="addi50" duration-ms="17" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addi50 -->
-        <test-method status="PASS" signature="mul50_zero()[pri:0, instance:mul50_zero(Borde.Funka.TestCase)]" name="mul50_zero" duration-ms="19" started-at="2018-12-14T20:38:13Z" finished-at="2018-12-14T20:38:13Z">
+        <test-method status="PASS" signature="cos_50()[pri:0, instance:cos_50(Borde.Funka.TestCase)]" name="cos_50" duration-ms="22" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cos_50 -->
+        <test-method status="PASS" signature="cosNeg_50()[pri:0, instance:cosNeg_50(Borde.Funka.TestCase)]" name="cosNeg_50" duration-ms="11" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cosNeg_50 -->
+        <test-method status="PASS" signature="cos50_zero()[pri:0, instance:cos50_zero(Borde.Funka.TestCase)]" name="cos50_zero" duration-ms="16" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cos50_zero -->
+        <test-method status="PASS" signature="sin_50()[pri:0, instance:sin_50(Borde.Funka.TestCase)]" name="sin_50" duration-ms="24" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sin_50 -->
+        <test-method status="PASS" signature="tan_50()[pri:0, instance:tan_50(Borde.Funka.TestCase)]" name="tan_50" duration-ms="15" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tan_50 -->
+        <test-method status="PASS" signature="tan50_zero()[pri:0, instance:tan50_zero(Borde.Funka.TestCase)]" name="tan50_zero" duration-ms="14" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tan50_zero -->
+        <test-method status="PASS" signature="tanNeg_50()[pri:0, instance:tanNeg_50(Borde.Funka.TestCase)]" name="tanNeg_50" duration-ms="6" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tanNeg_50 -->
+        <test-method status="PASS" signature="Cbrt50_zero()[pri:0, instance:Cbrt50_zero(Borde.Funka.TestCase)]" name="Cbrt50_zero" duration-ms="7" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cbrt50_zero -->
+        <test-method status="PASS" signature="mul50_zero()[pri:0, instance:mul50_zero(Borde.Funka.TestCase)]" name="mul50_zero" duration-ms="7" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mul50_zero -->
-        <test-method status="PASS" signature="div50_divide_by_zero()[pri:0, instance:div50_divide_by_zero(Borde.Funka.TestCase)]" name="div50_divide_by_zero" duration-ms="25" started-at="2018-12-14T20:38:13Z" finished-at="2018-12-14T20:38:13Z">
+        <test-method status="PASS" signature="sqrtNeg_50()[pri:0, instance:sqrtNeg_50(Borde.Funka.TestCase)]" name="sqrtNeg_50" duration-ms="12" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sqrtNeg_50 -->
+        <test-method status="PASS" signature="div50_divide_by_zero()[pri:0, instance:div50_divide_by_zero(Borde.Funka.TestCase)]" name="div50_divide_by_zero" duration-ms="52" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- div50_divide_by_zero -->
-        <test-method status="PASS" signature="div50()[pri:0, instance:div50(Borde.Funka.TestCase)]" name="div50" duration-ms="17" started-at="2018-12-14T20:38:13Z" finished-at="2018-12-14T20:38:13Z">
+        <test-method status="PASS" signature="PI_50()[pri:0, instance:PI_50(Borde.Funka.TestCase)]" name="PI_50" duration-ms="6" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PI_50 -->
+        <test-method status="PASS" signature="div50()[pri:0, instance:div50(Borde.Funka.TestCase)]" name="div50" duration-ms="6" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- div50 -->
-        <test-method status="PASS" signature="mul50()[pri:0, instance:mul50(Borde.Funka.TestCase)]" name="mul50" duration-ms="11" started-at="2018-12-14T20:38:13Z" finished-at="2018-12-14T20:38:13Z">
+        <test-method status="PASS" signature="mul50()[pri:0, instance:mul50(Borde.Funka.TestCase)]" name="mul50" duration-ms="6" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mul50 -->
-        <test-method status="PASS" signature="sub50()[pri:0, instance:sub50(Borde.Funka.TestCase)]" name="sub50" duration-ms="14" started-at="2018-12-14T20:38:13Z" finished-at="2018-12-14T20:38:13Z">
+        <test-method status="PASS" signature="sub50()[pri:0, instance:sub50(Borde.Funka.TestCase)]" name="sub50" duration-ms="5" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sub50 -->
-        <test-method status="PASS" signature="div50_cos()[pri:0, instance:div50_cos(Borde.Funka.TestCase)]" name="div50_cos" duration-ms="7" started-at="2018-12-14T20:38:13Z" finished-at="2018-12-14T20:38:13Z">
+        <test-method status="PASS" signature="PINeg_50()[pri:0, instance:PINeg_50(Borde.Funka.TestCase)]" name="PINeg_50" duration-ms="6" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- div50_cos -->
-        <test-method status="PASS" signature="sub50_negative()[pri:0, instance:sub50_negative(Borde.Funka.TestCase)]" name="sub50_negative" duration-ms="5" started-at="2018-12-14T20:38:13Z" finished-at="2018-12-14T20:38:13Z">
+        </test-method> <!-- PINeg_50 -->
+        <test-method status="PASS" signature="sqrt50_zero()[pri:0, instance:sqrt50_zero(Borde.Funka.TestCase)]" name="sqrt50_zero" duration-ms="8" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sqrt50_zero -->
+        <test-method status="PASS" signature="PI50_zero()[pri:0, instance:PI50_zero(Borde.Funka.TestCase)]" name="PI50_zero" duration-ms="6" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PI50_zero -->
+        <test-method status="PASS" signature="sub50_negative()[pri:0, instance:sub50_negative(Borde.Funka.TestCase)]" name="sub50_negative" duration-ms="7" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sub50_negative -->
-        <test-method status="PASS" signature="mul50_negative()[pri:0, instance:mul50_negative(Borde.Funka.TestCase)]" name="mul50_negative" duration-ms="11" started-at="2018-12-14T20:38:13Z" finished-at="2018-12-14T20:38:13Z">
+        <test-method status="PASS" signature="mul50_negative()[pri:0, instance:mul50_negative(Borde.Funka.TestCase)]" name="mul50_negative" duration-ms="6" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mul50_negative -->
-        <test-method status="PASS" signature="div50_zero()[pri:0, instance:div50_zero(Borde.Funka.TestCase)]" name="div50_zero" duration-ms="6" started-at="2018-12-14T20:38:13Z" finished-at="2018-12-14T20:38:13Z">
+        <test-method status="PASS" signature="div50_zero()[pri:0, instance:div50_zero(Borde.Funka.TestCase)]" name="div50_zero" duration-ms="8" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- div50_zero -->
-        <test-method status="PASS" signature="addi50_negative()[pri:0, instance:addi50_negative(Borde.Funka.TestCase)]" name="addi50_negative" duration-ms="6" started-at="2018-12-14T20:38:13Z" finished-at="2018-12-14T20:38:13Z">
+        <test-method status="PASS" signature="CbrtNeg_50()[pri:0, instance:CbrtNeg_50(Borde.Funka.TestCase)]" name="CbrtNeg_50" duration-ms="8" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CbrtNeg_50 -->
+        <test-method status="PASS" signature="addi50_negative()[pri:0, instance:addi50_negative(Borde.Funka.TestCase)]" name="addi50_negative" duration-ms="9" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addi50_negative -->
-        <test-method status="PASS" signature="div50_negative()[pri:0, instance:div50_negative(Borde.Funka.TestCase)]" name="div50_negative" duration-ms="4" started-at="2018-12-14T20:38:13Z" finished-at="2018-12-14T20:38:13Z">
+        <test-method status="PASS" signature="div50_negative()[pri:0, instance:div50_negative(Borde.Funka.TestCase)]" name="div50_negative" duration-ms="9" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- div50_negative -->
+        <test-method status="PASS" signature="sin50_zero()[pri:0, instance:sin50_zero(Borde.Funka.TestCase)]" name="sin50_zero" duration-ms="6" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sin50_zero -->
+        <test-method status="PASS" signature="sinNeg_50()[pri:0, instance:sinNeg_50(Borde.Funka.TestCase)]" name="sinNeg_50" duration-ms="5" started-at="2018-12-17T12:58:52Z" finished-at="2018-12-17T12:58:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sinNeg_50 -->
       </class> <!-- Borde.Funka.TestCase -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->

@@ -16,11 +16,11 @@ public class KalkylatorMain {
 		System.out.println("3. Division");
 		System.out.println("4. Multiplikation");
 		System.out.println("5. PI");
-		System.out.println("6. Random");
-		System.out.println("7. Cos");
-		System.out.println("8. Tan");
-		System.out.println("9. Sin");
-		System.out.println("10. Sqrt");
+		System.out.println("6. Cos");
+		System.out.println("7. Tan");
+		System.out.println("8. Sin");
+		System.out.println("9. Sqrt");
+		System.out.println("10. Cbrt");
 
 		Val = scan.nextDouble();
 		while (Val > 11) {
@@ -47,7 +47,7 @@ public class KalkylatorMain {
 			System.out.print("Ange ett andra nummer:");
 			b = scan.nextDouble();
 			if (b == 0) {
-				System.out.println("Du f�r inte dela med noll");
+				System.out.println("Du får inte dela med noll");
 			} else {
 				c = Mikael.division(a, b);
 				System.out.print("Talet blir " + c);
@@ -61,22 +61,27 @@ public class KalkylatorMain {
 			c = Mikael2.PI(a);
 			System.out.print("Talet blir " + c);
 		} else if (Val == 6) {
-			c = Mikael2.Random(a);
-			System.out.print("Talet blir " + c);
-		} else if (Val == 7) {
 			c = Mikael2.Cos(a);
 			System.out.print("Talet blir " + c);
-		} else if (Val == 8) {
+		} else if (Val == 7) {
 			c = Mikael2.Tan(a);
 			System.out.print("Talet blir " + c);
-		} else if (Val == 9) {
+		} else if (Val == 8) {
 			c = Mikael2.Sin(a);
 			System.out.print("Talet blir " + c);
-		} else if (Val == 10) {
+		} else if (Val == 9) {
 			if (a < 0) {
 				System.out.println("Du f�r inte r�kna p� negativa tal");
 			} else {
 				c = Mikael2.Sqrt(a);
+				System.out.print("Talet blir " + c);
+			}
+		}
+		else if (Val == 10) {
+			if (a < 0) {
+				System.out.println("Du f�r inte r�kna p� negativa tal");
+			} else {
+				c = Mikael2.Cbrt(a);
 				System.out.print("Talet blir " + c);
 			}
 		}
